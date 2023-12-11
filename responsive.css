@@ -1,0 +1,219 @@
+ @media (max-width: 768px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .navbar-collapse ul li {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .navbar-collapse ul li a {
+    color: #f8f9fa;
+  }
+
+  .navbar-collapse ul li a:hover {
+    color: #ffc107;
+  }
+
+  .navbar-brand {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    margin-right: 50px;
+  }
+
+  .navbar-collapse {
+    top: 56px;
+  }
+}
+
+#home td {
+  vertical-align: middle;
+  padding: 20px;
+}
+
+#home h1.heading {
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+#home h3.heading {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#home p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+#home button {
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 15px 30px;
+}
+
+.carousel {
+  margin-top: 50px;
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.carousel-caption {
+  padding: 10px;
+}
+
+.carousel-caption h3 {
+  font-size: 25px;
+}
+
+#about {
+  padding: 50px 0;
+}
+
+#about .my.pic {
+  text-align: center;
+}
+
+#about .name h2 {
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+#about .name p {
+  font-size: 20px;
+}
+
+#about hr {
+  border: solid 1px #343a40;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#about .capabilities .skills h3,
+#about .capabilities .languages h3 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+#about .capabilities .skills p,
+#about .capabilities .languages .progress-bar {
+  font-size: 20px;
+}
+
+#about .capabilities .progress {
+  height: 25px;
+}
+
+#education {
+  padding: 50px 0;
+}
+
+#education h1.heading {
+  font-size: 35px;
+}
+
+#education .columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+#education .box {
+  width: 45%;
+}
+
+#education .box h2 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+#education .box p {
+  font-size: 20px;
+}
+
+#projects {
+  padding: 50px 0;
+}
+
+#projects h1.heading {
+  font-size: 35px;
+}
+
+#projects .projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#projects img {
+  width: 45%;
+}
+
+#projects .proj1,
+#projects .proj2,
+#projects .proj3 {
+  width: 45%;
+  text-align: center;
+}
+
+#projects .proj1 h2,
+#projects .proj2 h2,
+#projects .proj3 h2 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+#projects .proj1 p,
+#projects .proj2 p,
+#projects .proj3 p {
+  font-size: 20px;
+}
+
+#contact {
+  padding: 50px 0;
+}
+
+#contact h1.heading {
+  font-size: 35px;
+}
+
+#contact h6 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#contact .form {
+  margin-top: 30px;
+}
+
+#contact .input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#contact textarea {
+  height: 150px;
+}
+
+#contact #submit {
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
